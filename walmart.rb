@@ -13,7 +13,7 @@ Dado(/^clico em procurar$/) do
   find(:xpath, "id('site-topbar')/div[2]/form/div/div/section/div/ul/li[1]").click  
 end
 
-Dado(/^clico em tv led sansung$/) do
+Dado(/^clico em tv led AOC$/) do
   find(:xpath, "id('category-products')/div[1]/section/ul/li[4]/figure/a/img").click   
 end
 
