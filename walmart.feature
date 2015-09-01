@@ -12,4 +12,4 @@ Cenário: Verificar Funcionalidade do site
 	E clico em adicionar ao carrinho
 	E clico em continuar
 	E clico em comprar
-	Então devo ver o produto no carrinho como: "TV LED 40” Samsung"
+	Então devo ver o produto no carrinho como: "Smart TV LED 3D Ultra"
