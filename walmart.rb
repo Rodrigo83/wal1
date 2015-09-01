@@ -14,7 +14,7 @@ Dado(/^clico em procurar$/) do
 end
 
 Dado(/^clico em tv led samsung$/) do
-  find(:xpath, "id('category-products')/div[1]/section/ul/li[4]/figure/a/img").click
+  find(:xpath, "id('category-products')/div[1]/section/ul/li[3]/div/a/span").click
 end
 
 Dado(/^clico em adicionar ao carrinho$/) do
@@ -30,5 +30,5 @@ Dado(/^clico em comprar$/) do
 end
 
 Então(/^devo ver o produto no carrinho como: "([^"]*)"$/) do |arg1|
-  expect(page).to have_content("TV LED 40” Samsung")
+  expect(page).to have_content("Smart TV LED 3D Ultra")
 end
